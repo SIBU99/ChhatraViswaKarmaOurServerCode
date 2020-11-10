@@ -115,4 +115,7 @@ GitHub.sublime-settings
 !.vscode/extensions.json 
 .history
 
-PlantDiseaseDetection
+PlantDiseaseDetection/__pycache__
+PlantDiseaseDetection/corn_ml_data
+PlantDiseaseDetection/paddy_ml_data
+PlantDiseaseDetection/potato_ml_data
