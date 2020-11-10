@@ -1,0 +1,28 @@
+#! For Log In of Farmer
+<ip>/api/v1/farmers/
+    Media Type : application/json
+    Content: 
+    {
+        "acc": {
+            "username": "",
+            "password": ""
+        },
+        "name": "",
+        "contact_no": null
+    }
+
+#!For Update Retrive and update of information of farmer 
+<ip>/api/farmers/<id>/ 
+    Media Type: application/json
+    Content: 
+    {
+        "acc": {
+            "username": "if change",
+            "password": "if change"
+        },
+        "name": "if change",
+        "contact_no": null
+    }
+
+
+#!For Expert Login
